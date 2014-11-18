@@ -68,6 +68,15 @@
                                     <rect key="frame" x="16" y="81" width="345" height="81"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TF1-Qe-Rse">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="179" width="217" height="21"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vIg-gh-pYL">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -110,6 +119,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="cc8-0v-Qhn"/>
+                                <exclude reference="TF1-Qe-Rse"/>
                                 <exclude reference="vIg-gh-pYL"/>
                                 <exclude reference="z12-Bv-xPE"/>
                                 <exclude reference="56M-T2-tuw"/>
@@ -119,6 +129,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="cc8-0v-Qhn"/>
+                                <include reference="TF1-Qe-Rse"/>
                                 <include reference="vIg-gh-pYL"/>
                                 <include reference="z12-Bv-xPE"/>
                                 <include reference="56M-T2-tuw"/>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameTextField" destination="z12-Bv-xPE" id="NHC-my-KvQ"/>
                         <outlet property="mailButton" destination="tW9-68-SZB" id="u2z-it-XrF"/>
                         <outlet property="messageLabel" destination="cc8-0v-Qhn" id="PcY-YV-pRA"/>
+                        <outlet property="nameLabel" destination="TF1-Qe-Rse" id="POs-V9-6fv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
